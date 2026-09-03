@@ -18,6 +18,8 @@ public class FPS_Camera : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+
+        camera.localRotation = Quaternion.Euler(45f, 0f, 0f);
     }
 
     private void OnEnable()
@@ -34,20 +36,20 @@ public class FPS_Camera : MonoBehaviour
 
     void Start()
     {
-
-
+        camera.localRotation = Quaternion.Euler(0f, 0f, 0f);
     }
 
     // Update is called once per frame
     void Update()
     {
+
+
         float deplacementSourisX = sourisX.ReadValue<float>() * sensibiliteSouris * Time.deltaTime;
         float deplacementSourisY = sourisY.ReadValue<float>() * sensibiliteSouris * Time.deltaTime;
 
 
         rotationX -= deplacementSourisY;
-        rotationX = Mathf.Clamp(rotationX, -90f, 90f);
-
+        rotationX = Mathf.Clamp(rotationX, -90f, 45f);
 
         camera.localRotation = Quaternion.Euler(rotationX, 0f, 0f);
         corps.Rotate(deplacementSourisX * Vector3.up);
