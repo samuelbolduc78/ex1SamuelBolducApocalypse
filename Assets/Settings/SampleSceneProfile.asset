@@ -201,22 +201,8 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
   m_Name: SampleSceneProfile
-  m_EditorClassIdentifier: 
-  components:
-  - {fileID: 849379129802519247}
-  - {fileID: -7893295128165547882}
-  - {fileID: 7391319092446245454}
-  - {fileID: -3357603926938260329}
-  - {fileID: 3145036391516429100}
-  - {fileID: 7192699537654341993}
-  - {fileID: 134513823724065725}
-  - {fileID: 5120762164358091466}
-  - {fileID: 6566164691189481295}
-  - {fileID: -605218503287885397}
-  - {fileID: -857467327395748905}
-  - {fileID: 291339932516855083}
-  - {fileID: -5342115904202752754}
-  - {fileID: -4348811167354099324}
+  m_EditorClassIdentifier: Unity.RenderPipelines.Core.Runtime::UnityEngine.Rendering.VolumeProfile
+  components: []
 --- !u!114 &134513823724065725
 MonoBehaviour:
   m_ObjectHideFlags: 3
