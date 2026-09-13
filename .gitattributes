@@ -155,4 +155,4 @@ OcclusionCullingData.asset             binary
 NavMesh.asset                          binary
 NavMeshData.asset                      binary
 *[Tt]errain.asset                      binary
-Assets/Terrain/**.asset                binary
+*.asset binary
