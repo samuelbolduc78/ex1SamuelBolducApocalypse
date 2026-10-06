@@ -119,6 +119,83 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &301412985
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 760863541}
+    m_Modifications:
+    - target: {fileID: 6341450784203585644, guid: 145dcb7c03db38d46aeba3599236548f, type: 3}
+      propertyPath: m_Name
+      value: PersonnageAvecLampePoche
+      objectReference: {fileID: 0}
+    - target: {fileID: 7718185513390351148, guid: 145dcb7c03db38d46aeba3599236548f, type: 3}
+      propertyPath: lampePoche
+      value: 
+      objectReference: {fileID: 1081505232}
+    - target: {fileID: 7718185513390351148, guid: 145dcb7c03db38d46aeba3599236548f, type: 3}
+      propertyPath: lampePocheAction.m_SingletonActionBindings.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7718185513390351148, guid: 145dcb7c03db38d46aeba3599236548f, type: 3}
+      propertyPath: lampePocheAction.m_SingletonActionBindings.Array.data[0].m_Id
+      value: f248ef11-3235-4988-ad79-f976ec69067a
+      objectReference: {fileID: 0}
+    - target: {fileID: 7718185513390351148, guid: 145dcb7c03db38d46aeba3599236548f, type: 3}
+      propertyPath: lampePocheAction.m_SingletonActionBindings.Array.data[0].m_Path
+      value: <Keyboard>/e
+      objectReference: {fileID: 0}
+    - target: {fileID: 7718185513390351148, guid: 145dcb7c03db38d46aeba3599236548f, type: 3}
+      propertyPath: lampePocheAction.m_SingletonActionBindings.Array.data[0].m_Action
+      value: Lampe Poche
+      objectReference: {fileID: 0}
+    - target: {fileID: 9134375897882408391, guid: 145dcb7c03db38d46aeba3599236548f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 158.7031
+      objectReference: {fileID: 0}
+    - target: {fileID: 9134375897882408391, guid: 145dcb7c03db38d46aeba3599236548f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 24.695866
+      objectReference: {fileID: 0}
+    - target: {fileID: 9134375897882408391, guid: 145dcb7c03db38d46aeba3599236548f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 131.7527
+      objectReference: {fileID: 0}
+    - target: {fileID: 9134375897882408391, guid: 145dcb7c03db38d46aeba3599236548f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9134375897882408391, guid: 145dcb7c03db38d46aeba3599236548f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9134375897882408391, guid: 145dcb7c03db38d46aeba3599236548f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9134375897882408391, guid: 145dcb7c03db38d46aeba3599236548f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9134375897882408391, guid: 145dcb7c03db38d46aeba3599236548f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9134375897882408391, guid: 145dcb7c03db38d46aeba3599236548f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9134375897882408391, guid: 145dcb7c03db38d46aeba3599236548f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 145dcb7c03db38d46aeba3599236548f, type: 3}
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -137,7 +214,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!81 &330585544
 AudioListener:
   m_ObjectHideFlags: 0
@@ -179,7 +256,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 63.8
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -383,6 +460,11 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!4 &531015298 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9134375897882408391, guid: 145dcb7c03db38d46aeba3599236548f, type: 3}
+  m_PrefabInstance: {fileID: 301412985}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &587276490
 GameObject:
   m_ObjectHideFlags: 0
@@ -401,7 +483,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &587276491
 Transform:
   m_ObjectHideFlags: 0
@@ -524,6 +606,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 531015298}
   - {fileID: 330585546}
   - {fileID: 410087041}
   - {fileID: 832575519}
@@ -610,6 +693,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1081505232 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3755218592041351683, guid: 145dcb7c03db38d46aeba3599236548f, type: 3}
+  m_PrefabInstance: {fileID: 301412985}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1896191329
 GameObject:
   m_ObjectHideFlags: 0
@@ -659,10 +747,10 @@ Terrain:
   serializedVersion: 6
   m_TerrainData: {fileID: 15600000, guid: c229477b000b2d545b389719cb4ab7d3, type: 2}
   m_TreeDistance: 5000
-  m_TreeBillboardDistance: 50
-  m_TreeCrossFadeLength: 5
+  m_TreeBillboardDistance: 415
+  m_TreeCrossFadeLength: 39
   m_TreeMaximumFullLODCount: 50
-  m_DetailObjectDistance: 80
+  m_DetailObjectDistance: 156
   m_DetailObjectDensity: 1
   m_HeightmapPixelError: 5
   m_SplatMapDistance: 1000
